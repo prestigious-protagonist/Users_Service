@@ -1,0 +1,16 @@
+{
+  "development": {
+    "url": "postgresql://neondb_owner:0RCOprGieHw7@ep-floral-recipe-a5luucjr.us-east-2.aws.neon.tech/USERS_DB_DEV?sslmode=require",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "url": "postgres://username:password@host:port/service2_test_db",
+    "dialect": "postgres"
+  }
+}
